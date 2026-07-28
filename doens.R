@@ -3,7 +3,7 @@ library(rinat)
 occ <- get_inat_obs(
   taxon_name = "Hanguana anthelminthica",
   quality = "research",
-  maxresults = 10000
+  maxresults = 1000
 )
 head(occ)
 occ_coord <- occ[, c(
